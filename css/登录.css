@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;
+padding:0}
+body{background-color:#EFF0F4;
+width:100vw;
+/*overflow:hidden;*/
+}
+.dl{width:100%;
+}
+.head{width:100%;
+background:#5FC0CD;
+height:80px;
+display:block;
+}
+.left,.cen,.right{
+	font-size:20px;
+width:40px;	
+text-align:center;
+color:#FFF;
+}
+.left{
+	position:absolute;
+	top:30px;
+	left:2%;
+}
+.cen{
+	position:absolute;
+	top:30px;
+	right:48%;
+}
+.right{
+	position:absolute;
+	top:30px;
+	right:2%;
+}
+.post{
+	width:100%;
+	
+}
+ul li{height:40px;
+	background-color:#FFF;
+	margin-top:1%;
+	padding:1%;
+	display:block;
+	
+	
+}
+img{
+	height:100%;
+	max-height:100%;
+	display:block;
+
+	
+}
+.phone,.pass{
+	height:30px;
+	width:90%;
+	position:relative;
+	top:-40px;
+	left:3.5%;
+	border:none;
+	border-left:1px solid #EFF0F4;
+	padding:0.5%;
+	font-size:20px;
+	color: #EFF0F4;
+}
+.an{
+	height:80px;
+	width:100%;
+	background-color:#5FC0CD;
+	color:#FFF;
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+	margin-top:1%;
+}
+.miss{
+	margin-top:2%;
+	float:right;
+}
