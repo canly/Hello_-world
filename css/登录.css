@@ -54,7 +54,7 @@ img{
 	
 }
 .phone,.pass{
-	height:30px;
+	height:100%;
 	width:90%;
 	position:relative;
 	top:-40px;
