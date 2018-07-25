@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+body{width:100vw;}
+.head{background:#59c1ce;color:
+        #FFFFFF;
+    height:70px;
+        width:100%;
+    font-size:40px;
+    text-align:center;
+    padding-top:20px;
+}
+
+img{padding-left:20px;
+float:left;}
+/*a{text-decoration:none;
+color:#FFFFFF;
+font-size:50px;
+font-family:"微软雅黑";}*/
+.min {
+    width: 100%;
+    height: 900px;
+}
+ul li {
+    width: 95%;
+    height:35px;
+    font-size:35px;
+    font-family:"黑体";
+    list-style:none;
+margin:2%;
+
+}
+br{ color: #e1e5e7ee;}
+.tou{ width:100%;
+    height:350px;
+    z-index:1;
+
+}
+.nav1{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    background-repeat:no-repeat;
+}
+.ss{
+    position:absolute;
+    left:50px;
+    top:180px;
+}
+.nav2{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;}
+
+.name{
+    font-size:40px;
+    color:#FFFFFF;
+    position:absolute;
+    left:280px;
+    top:210px;
+}
+
+.old{
+    font-size:35px;
+    color:#FFFFFF;
+    position:absolute;
+    left:450px;
+    top:210px;
+}
+
+.dps{
+    position:absolute;
+    left:265px;
+    top:300px;
+}
+.adr {
+    font-size: 30px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 320px;
+    top: 300px;
+}
+
+
+
+.foot{widht:100%;
+      height:130px;
+  }
+
+
+
+
+
+
+.one{
+    padding-left:2%;
+    border-left:3px solid #59c1ce;}
+.bao{width:35px;
+      height:35px;
+   margin:0 5px;
+    }
+.two2{width:200px;
+     float:left;}
+.two1{
+    width:160px;
+    float:left;
+    border-right:1px solid #e1e5e7;}
+.sre{
+    color:#999;
+    padding:0 25px;
+    margin-right:25px;
+      border-right:1px solid #e1e5e7;
+float:left;}
+.nro{width:95%;
+    height:90px;
+    text-align:center;
+    }
+.text{width:75%;
+       font-size:35px;
+    outline:none;
+    border:0;
+        float:left;}
+#button1,#button2{
+    width:35%;
+    height:100px;
+    margin:7.5%;
+    border-radius:20px;
+    font-size:40px;
+    float:left;
+
+}
+
+#button1{
+    background:#FFFFFF;
+    color:#59c1ce;
+    border:4px solid #59c1ce;
+
+}
+#button2{
+    background:#59c1ce;
+    color:#FFFFFF;
+    border:4px solid #59c1ce;
+}
