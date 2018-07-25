@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 *{margin:0;padding:0;}
-body{width:100vw;height:100vh;}
+body{width:100vw;}
 .head{background:#59c1ce;color:
         #FFFFFF;
     height:70px;
@@ -19,7 +19,7 @@ font-size:50px;
 font-family:"微软雅黑";}*/
 .min {
     width: 100%;
-    height: 100%;
+    height: 900px;
 }
 ul li {
     width: 95%;
@@ -42,36 +42,54 @@ br{ color: #e1e5e7ee;}
     width:100%;
     height:100%;
     background-repeat:no-repeat;
-
-
-
 }
-
+.ss{
+    position:absolute;
+    left:50px;
+    top:180px;
+}
 .nav2{
     margin:0;
     padding:0;
     width:100%;
-    height:30%;}
+    height:100%;}
 
-
-
-
-
-.btn{
-
-
+.name{
+    font-size:40px;
+    color:#FFFFFF;
+    position:absolute;
+    left:280px;
+    top:210px;
 }
 
-/*.foot{widht:100%;
-      height:30px;
+.old{
+    font-size:35px;
+    color:#FFFFFF;
     position:absolute;
-    position:fixed;
-    z-index:1000;
-    bottom:0;
-    left:0;
-    _top:700px;
+    left:450px;
+    top:210px;
+}
 
-*/
+.dps{
+    position:absolute;
+    left:265px;
+    top:300px;
+}
+.adr {
+    font-size: 30px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 320px;
+    top: 300px;
+}
+
+
+
+.foot{widht:100%;
+      height:130px;
+  }
+
+
 
 
 
@@ -92,6 +110,36 @@ br{ color: #e1e5e7ee;}
 .sre{
     color:#999;
     padding:0 25px;
+    margin-right:25px;
+      border-right:1px solid #e1e5e7;
+float:left;}
+.nro{width:95%;
+    height:90px;
+    text-align:center;
+    }
+.text{width:75%;
+       font-size:35px;
+    outline:none;
+    border:0;
+        float:left;}
+#button1,#button2{
+    width:35%;
+    height:100px;
+    margin:7.5%;
+    border-radius:20px;
+    font-size:40px;
+    float:left;
 
-      border-right:1px solid #e1e5e7;}
-.st{ color:#E56060;}
+}
+
+#button1{
+    background:#FFFFFF;
+    color:#59c1ce;
+    border:4px solid #59c1ce;
+
+}
+#button2{
+    background:#59c1ce;
+    color:#FFFFFF;
+    border:4px solid #59c1ce;
+}
